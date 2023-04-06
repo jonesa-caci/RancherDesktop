@@ -10,3 +10,16 @@ This program is reccommended to be installed to a local system first. Followed b
 The main attraction here is xaml for automatic install and download of rancher desktop for windows. 
 
 [video](https://youtu.be/NkRUeoUxYOk)
+
+This App was built using dockerfile and .NET. Clone the repo then follow steps to get started. <br>
+
+[Containerized](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows)<br>
+
+#### Build the container
+> 1. docker build -t rancherdesktop -f Dockerfile . <br>
+
+#### Name the container
+> 2. docker create --name rancherdesktop-core rancherdesktop
+
+#### Get Container ID
+> 3. docker container ls

@@ -1,0 +1,5 @@
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/publish/DotNet.Docker
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/publish/DotNet.Docker.dll
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/publish/DotNet.Docker.deps.json
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/publish/DotNet.Docker.runtimeconfig.json
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/publish/DotNet.Docker.pdb

@@ -1,0 +1,15 @@
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/DotNet.Docker
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/DotNet.Docker.deps.json
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/DotNet.Docker.runtimeconfig.json
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/DotNet.Docker.dll
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/bin/Release/net7.0/DotNet.Docker.pdb
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/DotNet.Docker.csproj.AssemblyReference.cache
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/DotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/DotNet.Docker.AssemblyInfoInputs.cache
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/DotNet.Docker.AssemblyInfo.cs
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/DotNet.Docker.csproj.CoreCompileInputs.cache
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/DotNet.Docker.dll
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/refint/DotNet.Docker.dll
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/DotNet.Docker.pdb
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/DotNet.Docker.genruntimeconfig.cache
+/workspaces/RancherDesktop/DesktopRancherDeployer/App/obj/Release/net7.0/ref/DotNet.Docker.dll
