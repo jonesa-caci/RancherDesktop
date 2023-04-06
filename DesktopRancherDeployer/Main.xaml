@@ -1,0 +1,183 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="634.6666666666666,1640.6666666666667" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Mail.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.Activities.Business.HtmlEditor</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="644.6666666666666,1576" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="HelpRequest" />
+      <Variable x:TypeArguments="x:String" Name="attachment">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">C:\Users\amaxj\Downloads\Rancher.Desktop.Setup.1.8.1.msi</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="today" />
+      <Variable x:TypeArguments="um:IMailQuickHandle" Name="sender" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Rancher Desktop" sap:VirtualizedContainerService.HintSize="582.6666666666666,1465.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="dec99aef-c7bf-4f07-aa68-51edbfcfa21e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Download Rancher Windows, Centos, " sap:VirtualizedContainerService.HintSize="548.6666666666666,1240.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="k3sAdmin" />
+              <Variable x:TypeArguments="si:FileInfo" Name="Filename" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Download Windows'" sap:VirtualizedContainerService.HintSize="486.6666666666667,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dec99aef-c7bf-4f07-aa68-51edbfcfa21e" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://rancherdesktop.io/" DesignTimeRectangle="1049, 571, 223, 25" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Download Windows'" FullSelectorArgument="&lt;webctrl aaname='Download Windows file_download' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Download Windows file_download' tag='A' type='' class='' check:innerText='Download Windows file_download' /&gt;" Guid="63861790-aa6a-4449-80fa-867abda3a24b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOMAAAAdCAYAAABYFtslAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAmBSURBVHhe7ZuHkxRFFIf9vyxKq7S01MKIkTKVoiiWAUMZQUGQIEFQUJB0pCNzxIMjS5R85BwWOOA40hGP0M7XN+/o7e3Z3d5d8Fb7q5ridqZnuvv1+71+3TPcpwKBQKsgiDEQaCUEMQYCeTJ93W7VffrKrMeu42fi0v4EMQYCedJl8nJ1f5cxWY+lOw7Hpf0JYgwE8iSIMRBoJQQxFsnpC5fVs/2mFmWkUkEbOv45X1261hSfKW/+a/3JxT0VI0bFuHYFD3Ufrz4ZU6Nqj5xSt2/HhcuEchPjnI371JtDZ6sLV67FZ9Lh+nP9p6pT5y/FZ9JZseuoajdgmr7edPOWGrtim1q771h8tbQEMWYeJRfjyKVb4zNKD+iJs41q1LKt6vFelar/3HX6XLlQbmLckapXLwycrvafPBufucONyO5fVy5VbbpWqCUJ/RlcvV59MX6xLnv+8jUt7H5z1sZXS0sQY+ZxV8VocqT+gnrplxlamOUyQ5abGJkRERAzoA2z3RtDZqvPxy1WvWetic/e4VrTTfVxlMFUrKiNz9xdghgzj3smRli995h6JnLufXWZkbs1Um5iJMh1nbLCKbY1ke07/DFXz4odh8/LSGVTZy6o5wdMVxsP1sVn7i5BjJnHPRWjlJmyZmd8pplbt26r6i0H9MxJGtXm+wr1duQ4Gw6cSJtFk9ZEZy5e0fe6ZgQi/YejFqirTTda6qfTpHLvRk5JXRz8fej0+fiuZpLEyLMmrNyunv55ijbig93G6VnFlR5m9C06WLfN3bRfX7Opv3hZdZv2l15r82zqoOzi7Yfyct4kG5GCcpy9dFV1GDZXp7QmiPW132bp6+AaT+zx6q9VanvqdLSWPK7aD56p+0P/v5qwVLfdxrc/2BBb8kwpj62xuZAtA5i4akdWH1m5OxWfyayLpdTAeX+rxqvX4xL+4Cs9ZmS+0G/Xf5quI9vxwcgFGff1rlqtDten+6ULbzECDkGUEFhDUimGWh+Jj98YY+raXeqxnyrVmOW1LYLEeKyJXI70wA9j9ZqI9Y7A36yBpE3SRup/Z9g8tfNYvbp+46Y6FTnZt5OWaedqaLyiy4JLjLSt04hqPbvsOdGgBcVAD63ZqNtbU3soLtnct54zVqnXh8xSmw7V6d8cbJS07TNJ981Ent25YpEODJTlX/qAg+Ujxt3Hz6gXrXUjjsmsiJ1k9rTHafjizS3rRcgmxi8nLNHprtlGglnnipo00fj2p6b2oLYhguJeymM3gsRHoxfqcwKzP/0wg7Wk2g//OF5tOXwqPtsMM/4rg2a2bF4x9k/2naxGLNmin8s4Mp7cT5vNunygzYw5QcolOJ+DAGb6UzYKEiPX6eyV682DNjmaJRHi8bMX9W+TDZEBn+o7pUV8Ymx7ZmVgvqlcpt76fU7aTiF/MwCSekkbcYSGxuYZQEBQlEUogi1GBr7v7DWJgzU7itQI4cS5Rv0bYRA89tY16N8m8zbv1+KXmQiwDU5tP5sBxvHyEaNr1sB+OLTYhmvYEXuCy65JYsQeiMkUHdBH+kqfBZ/+sHRhCYMgbWQzyWyLPZMDAQgf+HTsorSywG8z2DApEIBNMYPLD3wphSB9hAgFi1EGQe4hErqQmQ3DCbZRJe0ighKZzZ1CWSdJyiL1udIbcUiz/bYYcWbEZqY6JtnSJxsEwixDHSBtswONQBvEbrkgLTTXjTzTzBpwWupORetEOBn1i4BorhelPbY9Xh6UXk5gHHBisZVvf6hHlhMusCm2lbG0Ay1QFyJnb4KUT54tY2uOS1J9iPNc1BcJVIVSjCB9hQhFz4wMbvvBVWrb0dPx1Uwob0ZxO93gNykM9SNqM3VBxKZTShvFYWxIX83222JEQLQX502CZ7g2UGxsMWZzdPARI05HGs6MJAHNdERsaQYu1yzjGk/aSJslUzGxbevbH+xGqpwEdZqvbaRf0j5+kz7TJ2Y39hyknako6NBuM3UnEyMz4eAjbpYq9ixZLIUIshAhQkFixFFlzZhtcAV70HAYHAcHAgQndZIqkRYxGJR/L7rPnClth7HJR4ymgFxwv/QPiLyVq3doEctGgRw8W56Vyxa2HbKB0xGw+NfliEA7e1Wt1g7I33bK5hrPbG20bevbH9v2Nq7nMRNKoKafBCCCNP2gb5Jx4QP4gm07xEI7mCEf7TlRPdJjgn6vagalYvERZKFCBG8xShlJXTBwPjOjucYEBI0IifydRla3LNZxfCI+QsX5eK+WarizFrUdxiYfMeYzM5Imgm5f1Pb3R8zX618z9eFZOBd1QC5b2M6bDUmXGdgkR2TGokzduUsZ60VwjadLEIJtW9/+YLdcMyO70OaalDGmPalIiKzB2TeQVJylxGfR2hGb4y9DFm7U55NAwLwLZ2MqaQ+jUPIRZDFCBG8x2u8Z5R6fNSOIg63ak9JiNDcIeBbGpwxpiwwO2A5jk0uMvmtG/mUnlTWIjS1Ggg3CzXeNlQtsIIdrTIj+pHLYiaBlC8w1nj5i9O0P9fisGYF78QM2fRAighTIjnh+bRQMWMaY6TI7p+yam8FRkDFManehZBNksUIELzEmfYHjs5sqpOLUiwGwhUpZBMq1pGhfqBhpt89uKu84Ze1mwnOwA5FexAgEkqTdR17/mM6bCwaXzSvqd63bJJX7LuozorRTM9d4+ogRfPrju5sqMP7sntJP/EKgf+wf8N4QwZr9E8G5JgHayrNKLUZwCbIUQoScYiQCkQZl+zZVBoZ1oLyLI2JVbdib8Z5RYLZjd5Bn2o5GOzA+15KifaFiBAYLMZLayXtGzvG+yn7PiIO17TNZ9Zy5StuBcqxrSWNpn91GeTbv5QheN6NnH40cDPvwXtJ03lyQwlG3/frEhFmRday56SW4xtNXjL79QYhP9J6k3zFzL7blf7/jG/Z7RoHxx472O2bI1j+pCz+jDVxnE4exKnWaamIKslRCBKcYzemXg4Ux/2sDx7UNImB0vspgpqCRSV/gmBC57LRFwIFcjutyGJN8xAikUqOjAIOz00cGHHHamyTAOWYH/aVP1Df6yBclqcgp2R20U15mAb7gYKB4tnyBwlc8rj4lgeMS4WWTxgVt4MW3udMqiK2KESP49gd78UGFbHa5vsAxIdCwWeXqA8sK/hcKorTBJvgXr8WkLnyVQEngvJsgSDaK+AqpVKSJMRAI/HsEMQYCrYQgxkCglRDEGAhYsO/A+rOUR9Ieh0kQYyBgEcQYCLQSghgDgf81Sv0D7RlAxcKhFa8AAAAASUVORK5CYII=" InformativeScreenshot="3c7dc8686a504bcc2999b1a6392bc0a2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rancher Desktop' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="StartInstall.sh" sap:VirtualizedContainerService.HintSize="334,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dec99aef-c7bf-4f07-aa68-51edbfcfa21e" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="366, 1055, 350, 84" DesignTimeScaleFactor="1.5" FriendlyName="'Rancher.Desktop.Setup.1…'" FullSelectorArgument="&lt;ctrl name='Rancher Desktop - Google Chrome - Austin (email.vccs.edu)' role='pane' /&gt;&lt;ctrl name='Downloads bar' role='grouping' /&gt;&lt;ctrl name=' Rancher.Desktop.Setup.1.8.1 (1).msi' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Rancher Desktop - Google Chrome - Austin (email.vccs.edu)' role='pane' /&gt;&lt;ctrl name='Downloads bar' role='grouping' /&gt;&lt;ctrl name=' Rancher.Desktop.Setup.1.8.1 (1).msi' role='grouping' automationid='' check:fulltext='Rancher.Desktop.Setup.1.8.1 (1).msi&amp;#xD;&amp;#xA;Open now&amp;#xD;&amp;#xA;Keep&amp;#xD;&amp;#xA;Discard&amp;#xD;&amp;#xA;Send&amp;#xD;&amp;#xA;Review&amp;#xD;&amp;#xA;Options menu' /&gt;" Guid="22ee5d2d-07db-4e3c-9ce6-3e237b09335e" ImageBase64="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" InformativeScreenshot="c609237e46dbd4ecaeda80a380e17648.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Rancher Desktop - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486.6666666666667,341.3333333333333" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,261.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:SendOutlookMail Body="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Account="austin.jones@caci.com" Bcc="amj22240@email.vccs.edu" DisplayName="Send Outlook Alert" sap:VirtualizedContainerService.HintSize="388,150.66666666666666" sap2010:WorkflowViewState.IdRef="SendOutlookMail_3" Importance="Normal" IsBodyHtml="False" IsDraft="False" Sensitivity="Normal" SentOnBehalfOfName="Austin Jones" Subject="Rancher Desktop Installer and xaml" To="austin.jones@caci.com">
+                    <ui:SendOutlookMail.Files>
+                      <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                        <InArgument x:TypeArguments="x:String">
+                          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="attachment" />
+                        </InArgument>
+                      </scg:List>
+                    </ui:SendOutlookMail.Files>
+                  </ui:SendOutlookMail>
+                </Sequence>
+              </ui:CommentOut.Body>
+            </ui:CommentOut>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486.6666666666667,350" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,270" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ClickType="Single" DisplayName="Click 'Options menu'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dec99aef-c7bf-4f07-aa68-51edbfcfa21e" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="303, 1070, 55, 54" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Options menu'" FullSelectorArgument="&lt;ctrl name='Rancher Desktop - Google Chrome - Austin (email.vccs.edu)' role='pane' /&gt;&lt;ctrl name='Downloads bar' role='grouping' /&gt;&lt;ctrl name=' Rancher.Desktop.Setup.1.8.1 (4).msi' role='grouping' /&gt;&lt;ctrl name='Options menu' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Rancher Desktop - Google Chrome - Austin (email.vccs.edu)' role='pane' /&gt;&lt;ctrl name='Downloads bar' role='grouping' /&gt;&lt;ctrl name=' Rancher.Desktop.Setup.1.8.1 (4).msi' role='grouping' /&gt;&lt;ctrl name='Options menu' role='push button' automationid='' check:text='Options menu' /&gt;" Guid="9978c54b-c5f7-4bff-a438-c201ac1708e9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAA6CAYAAAAOeSEWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADRSURBVGhD7dRBCsIwEEZhj6LgaQquC+5b3be6Lx6nXi4niCQ0ElxkN6M8/wchZMjmayG7+EcJS01YasJSE5aasNSEpSYsNWGpCUtNWGrCUhOWmis2hBC77hT3h2Pe09kzN2wNLcsb7IL9hE7T7StgF2zfn9+4dX3mWdrLbByveWadObb+iwVaqsHzfN+mdpliW9CSJ9gUWxAJ3ar+KJaZYofhEpflsZ3apXvpvmUuD9SvJCw1YakJS01YasJSE5aasNSEpSYsNWGpCUtNWGYxvgBkBt4hoMNURAAAAABJRU5ErkJggg==" InformativeScreenshot="f1aa8c3f570afcabe702af18e7ace9aa.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Rancher Desktop - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </ui:CommentOut.Body>
+            </ui:CommentOut>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADhSURBVDhPY2Bo3FcIxL+A+D+J+DcQl4EM+IokSCr+CTIAmwTxGEQETDzyf9XB23DB3vWXwHxkPGHjZbg8iA/SA+aDiJqlZ/+DAIhduQTCfv72Cwr+/efv/7bVF8BqQACkB25A4ozjYMGdZx6CTQdpAEsiYZAYSG7H6QdgtckzTyAMAOGFu28QbcDiPTcRcsiKQBik6M3Hb2AnIuM3H76B5dDVYzUAFyBoQP78Uxg2o2OQGmQ9KAaA/EkIYIQPMket7cB/7faDeDFIDbIekAGUJOUfIAPywAzsCvBhYAbcVwwA8YlPzIcGkzgAAAAASUVORK5CYII=" InformativeScreenshot="00ec86b5bad4c74dcab4af871b9ce6eb.jpg" Selector="&lt;html app='chrome.exe' title='Rancher Desktop' /&gt;" Url="https://rancherdesktop.io/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

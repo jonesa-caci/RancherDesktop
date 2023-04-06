@@ -1,0 +1,12 @@
+﻿{
+  "Id": "7KR658C650e4uI7iODWohg",
+  "Reference": "Del9sC6ZskC9YJ4FEk1zjQ/7KR658C650e4uI7iODWohg",
+  "ParentRef": "Del9sC6ZskC9YJ4FEk1zjQ/GjTEfVbnE0G_Ulj-pr9qGA",
+  "Name": "Rancher Desktop Setup (2)",
+  "Type": "Screen",
+  "Created": "2023-04-06T02:33:48.8895566Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-06T02:33:48.8895566Z"
+}
