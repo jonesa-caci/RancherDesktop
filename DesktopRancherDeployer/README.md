@@ -15,6 +15,8 @@ This App was built using dockerfile and .NET. Clone the repo then follow steps t
 
 [Containerization Instructions](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows)<br>
 
+This was an interesting process and it make take a day or too to document it properly. 
+
 #### Build the container
 > 1. docker build -t rancherdesktop -f Dockerfile . <br>
 
