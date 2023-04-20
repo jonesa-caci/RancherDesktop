@@ -1,0 +1,8 @@
+stages:
+  - deploy
+
+deploy:
+  image: docker:latest
+  script:
+    - apk add --no-cache bash
+    - bash create_k8s_cluster.sh

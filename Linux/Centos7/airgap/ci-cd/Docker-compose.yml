@@ -1,0 +1,11 @@
+# /docker-compose.yml
+version: "3.1"
+name: "csderanchercaci"
+services:
+  web:
+    restart: always
+    build:
+      context: .
+      dockerfile: ./web/Dockerfile
+    ports:
+      - "3000:80"
